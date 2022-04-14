@@ -7,6 +7,7 @@ import Test1 from 'src/pages/test1/Test1';
 import Test2 from 'src/pages/test2/Test2';
 import List from 'src/pages/list/List';
 import Class from 'src/pages/class/Class';
+import Id from 'src/pages/id/Id';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/test2" element={<Test2 />} />
         <Route path="/list" element={<List />} />
         <Route path="/class" element={<Class />} />
+        <Route path="/id" element={<Id />} />
       </Routes>
     </Router>
   );
