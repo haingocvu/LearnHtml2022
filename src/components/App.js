@@ -8,6 +8,7 @@ import Test2 from 'src/pages/test2/Test2';
 import List from 'src/pages/list/List';
 import Class from 'src/pages/class/Class';
 import Id from 'src/pages/id/Id';
+import IFrame from 'src/pages/iframe/IFrame';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/list" element={<List />} />
         <Route path="/class" element={<Class />} />
         <Route path="/id" element={<Id />} />
+        <Route path="/iframe" element={<IFrame />} />
       </Routes>
     </Router>
   );
