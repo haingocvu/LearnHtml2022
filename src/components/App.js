@@ -12,6 +12,7 @@ import IFrame from 'src/pages/iframe/IFrame';
 import ComputerCode from 'src/pages/computerCode/ComputerCode';
 import Semantics from 'src/pages/semantics/Semantics';
 import Emoji from 'src/pages/emoji/Emoji';
+import Radio from 'src/pages/radio/Radio';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/computercode" element={<ComputerCode />} />
         <Route path="/semantics" element={<Semantics />} />
         <Route path="/emoji" element={<Emoji />} />
+        <Route path="/radio" element={<Radio />} />
       </Routes>
     </Router>
   );
