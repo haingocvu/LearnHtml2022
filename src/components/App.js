@@ -10,6 +10,7 @@ import Class from 'src/pages/class/Class';
 import Id from 'src/pages/id/Id';
 import IFrame from 'src/pages/iframe/IFrame';
 import ComputerCode from 'src/pages/computerCode/ComputerCode';
+import Semantics from 'src/pages/semantics/Semantics';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/id" element={<Id />} />
         <Route path="/iframe" element={<IFrame />} />
         <Route path="/computercode" element={<ComputerCode />} />
+        <Route path="/semantics" element={<Semantics />} />
       </Routes>
     </Router>
   );
