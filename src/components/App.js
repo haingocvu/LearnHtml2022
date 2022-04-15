@@ -13,6 +13,7 @@ import ComputerCode from 'src/pages/computerCode/ComputerCode';
 import Semantics from 'src/pages/semantics/Semantics';
 import Emoji from 'src/pages/emoji/Emoji';
 import Radio from 'src/pages/radio/Radio';
+import Checkbox from 'src/pages/checkbox/Checkbox';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/semantics" element={<Semantics />} />
         <Route path="/emoji" element={<Emoji />} />
         <Route path="/radio" element={<Radio />} />
+        <Route path="/checkbox" element={<Checkbox />} />
       </Routes>
     </Router>
   );
