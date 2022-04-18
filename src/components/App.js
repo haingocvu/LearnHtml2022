@@ -17,6 +17,7 @@ import Checkbox from 'src/pages/checkbox/Checkbox';
 import Select from 'src/pages/select/Select';
 import Colors from 'src/pages/colors/Colors';
 import File from 'src/pages/file/File';
+import Range from 'src/pages/range/Range';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path="/select" element={<Select />} />
         <Route path="colors" element={<Colors />} />
         <Route path="/file" element={<File />} />
+        <Route path="/range" element={<Range />} />
       </Routes>
     </Router>
   );
