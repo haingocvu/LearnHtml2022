@@ -15,6 +15,7 @@ import Emoji from 'src/pages/emoji/Emoji';
 import Radio from 'src/pages/radio/Radio';
 import Checkbox from 'src/pages/checkbox/Checkbox';
 import Select from 'src/pages/select/Select';
+import Colors from 'src/pages/colors/Colors';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/radio" element={<Radio />} />
         <Route path="/checkbox" element={<Checkbox />} />
         <Route path="/select" element={<Select />} />
+        <Route path="colors" element={<Colors />} />
       </Routes>
     </Router>
   );
