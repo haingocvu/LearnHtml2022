@@ -18,6 +18,7 @@ import Select from 'src/pages/select/Select';
 import Colors from 'src/pages/colors/Colors';
 import File from 'src/pages/file/File';
 import Range from 'src/pages/range/Range';
+import DisableInput from 'src/pages/disableinput/DisableInput';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <Route path="colors" element={<Colors />} />
         <Route path="/file" element={<File />} />
         <Route path="/range" element={<Range />} />
+        <Route path="/disable-input" element={<DisableInput />} />
       </Routes>
     </Router>
   );
