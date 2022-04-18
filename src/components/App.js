@@ -14,6 +14,7 @@ import Semantics from 'src/pages/semantics/Semantics';
 import Emoji from 'src/pages/emoji/Emoji';
 import Radio from 'src/pages/radio/Radio';
 import Checkbox from 'src/pages/checkbox/Checkbox';
+import Select from 'src/pages/select/Select';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/emoji" element={<Emoji />} />
         <Route path="/radio" element={<Radio />} />
         <Route path="/checkbox" element={<Checkbox />} />
+        <Route path="/select" element={<Select />} />
       </Routes>
     </Router>
   );
