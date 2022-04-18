@@ -54,3 +54,7 @@ li a:hover {
   margin: 20px;
   padding: 20px;
 }
+
+input:invalid {
+  border: 1px solid red;
+}
