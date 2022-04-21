@@ -20,6 +20,7 @@ import File from 'src/pages/file/File';
 import Range from 'src/pages/range/Range';
 import DisableInput from 'src/pages/disableinput/DisableInput';
 import FormValidation from 'src/pages/formValidation/FormValidation';
+import Canvas from 'src/pages/canvas/Canvas';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         <Route path="/range" element={<Range />} />
         <Route path="/disable-input" element={<DisableInput />} />
         <Route path="/form-validation" element={<FormValidation />} />
+        <Route path="/canvas" element={<Canvas />} />
       </Routes>
     </Router>
   );
