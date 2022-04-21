@@ -23,6 +23,7 @@ import FormValidation from 'src/pages/formValidation/FormValidation';
 import Canvas from 'src/pages/canvas/Canvas';
 import Svg from 'src/pages/svg/Svg';
 import Video from 'src/pages/video/Video';
+import Location from 'src/pages/location/Location';
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
         <Route path="/canvas" element={<Canvas />} />
         <Route path="/svg" element={<Svg />} />
         <Route path="/video" element={<Video />} />
+        <Route path="/location" element={<Location />} />
       </Routes>
     </Router>
   );
