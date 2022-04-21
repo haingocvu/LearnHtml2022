@@ -19,6 +19,7 @@ import Colors from 'src/pages/colors/Colors';
 import File from 'src/pages/file/File';
 import Range from 'src/pages/range/Range';
 import DisableInput from 'src/pages/disableinput/DisableInput';
+import FormValidation from 'src/pages/formValidation/FormValidation';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route path="/file" element={<File />} />
         <Route path="/range" element={<Range />} />
         <Route path="/disable-input" element={<DisableInput />} />
+        <Route path="/form-validation" element={<FormValidation />} />
       </Routes>
     </Router>
   );
