@@ -21,6 +21,7 @@ import Range from 'src/pages/range/Range';
 import DisableInput from 'src/pages/disableinput/DisableInput';
 import FormValidation from 'src/pages/formValidation/FormValidation';
 import Canvas from 'src/pages/canvas/Canvas';
+import Svg from 'src/pages/svg/Svg';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
         <Route path="/disable-input" element={<DisableInput />} />
         <Route path="/form-validation" element={<FormValidation />} />
         <Route path="/canvas" element={<Canvas />} />
+        <Route path="/svg" element={<Svg />} />
       </Routes>
     </Router>
   );
