@@ -22,6 +22,7 @@ import DisableInput from 'src/pages/disableinput/DisableInput';
 import FormValidation from 'src/pages/formValidation/FormValidation';
 import Canvas from 'src/pages/canvas/Canvas';
 import Svg from 'src/pages/svg/Svg';
+import Video from 'src/pages/video/Video';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
         <Route path="/form-validation" element={<FormValidation />} />
         <Route path="/canvas" element={<Canvas />} />
         <Route path="/svg" element={<Svg />} />
+        <Route path="/video" element={<Video />} />
       </Routes>
     </Router>
   );
