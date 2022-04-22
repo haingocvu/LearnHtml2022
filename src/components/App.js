@@ -25,6 +25,7 @@ import Svg from 'src/pages/svg/Svg';
 import Video from 'src/pages/video/Video';
 import Location from 'src/pages/location/Location';
 import DragDrop from 'src/pages/dragdrop/DragDrop';
+import WebStorage from 'src/pages/webStorage/WebStorage';
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
         <Route path="/video" element={<Video />} />
         <Route path="/location" element={<Location />} />
         <Route path="/dragdrop" element={<DragDrop />} />
+        <Route path="/web-storage" element={<WebStorage />} />
       </Routes>
     </Router>
   );
