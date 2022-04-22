@@ -6,7 +6,7 @@ function WebWorker() {
 
   const startWorker = () => {
     if (typeof Worker !== 'undefined') {
-      if (typeof w === 'undefined') {
+      if (typeof w?.current === 'undefined') {
         w = new Worker(new URL('src/workers/demoWorker.js', import.meta.url));
       }
       w.onmessage = (event) => {
