@@ -26,6 +26,7 @@ import Video from 'src/pages/video/Video';
 import Location from 'src/pages/location/Location';
 import DragDrop from 'src/pages/dragdrop/DragDrop';
 import WebStorage from 'src/pages/webStorage/WebStorage';
+import WebWorker from 'src/pages/webWorker/WebWorker';
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
         <Route path="/location" element={<Location />} />
         <Route path="/dragdrop" element={<DragDrop />} />
         <Route path="/web-storage" element={<WebStorage />} />
+        <Route path="/web-worker" element={<WebWorker />} />
       </Routes>
     </Router>
   );
