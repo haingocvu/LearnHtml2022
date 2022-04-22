@@ -57,7 +57,6 @@ li a:hover {
 
 body {
   font: 1em sans-serif;
-  width: 200px;
   padding: 0;
   margin: 0 auto;
 }
@@ -105,4 +104,14 @@ input:focus:invalid {
 
 .error.active {
   padding: 0.3em;
+}
+
+#div1,
+#div2 {
+  border: 1px solid #aaaaaa;
+  width: 350px;
+  height: 70px;
+  padding: 10px;
+  float: left;
+  margin: 10px;
 }
