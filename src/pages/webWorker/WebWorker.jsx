@@ -1,7 +1,7 @@
 import React from 'react';
 
 function WebWorker() {
-  let w = React.useState(undefined);
+  let [w] = React.useState(undefined);
   const result = React.useRef(null);
 
   const startWorker = () => {
