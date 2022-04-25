@@ -27,6 +27,7 @@ import Location from 'src/pages/location/Location';
 import DragDrop from 'src/pages/dragdrop/DragDrop';
 import WebStorage from 'src/pages/webStorage/WebStorage';
 import WebWorker from 'src/pages/webWorker/WebWorker';
+import Fibonacci from 'src/pages/Fibonacci/Fibonacci';
 
 function App() {
   return (
@@ -56,6 +57,7 @@ function App() {
         <Route path="/dragdrop" element={<DragDrop />} />
         <Route path="/web-storage" element={<WebStorage />} />
         <Route path="/web-worker" element={<WebWorker />} />
+        <Route path="/fibonacci" element={<Fibonacci />} />
       </Routes>
     </Router>
   );
