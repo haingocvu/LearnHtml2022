@@ -29,6 +29,8 @@ import WebStorage from 'src/pages/webStorage/WebStorage';
 import WebWorker from 'src/pages/webWorker/WebWorker';
 import Fibonacci from 'src/pages/Fibonacci/Fibonacci';
 import FibonacciWorker from 'src/pages/FibonacciWorker/FibonacciWorker';
+import Selector from 'src/pages/selector/Selector';
+import Border from 'src/pages/border/Border';
 
 function App() {
   return (
@@ -60,6 +62,8 @@ function App() {
         <Route path="/web-worker" element={<WebWorker />} />
         <Route path="/fibonacci" element={<Fibonacci />} />
         <Route path="/fibonacci-worker" element={<FibonacciWorker />} />
+        <Route path="/selector" element={<Selector />} />
+        <Route path="/border" element={<Border />} />
       </Routes>
     </Router>
   );
