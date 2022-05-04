@@ -174,3 +174,26 @@ body {
   border: 10px solid green;
   box-sizing: content-box;
 }
+
+#demoOutlineOffset1 {
+  width: 50%;
+  height: 200px;
+  background-color: yellow;
+  margin: auto;
+  text-align: center;
+  border: 2px solid black;
+  outline: 10px solid green;
+  outline-offset: 40px;
+}
+
+#demoOutlineOffset2 {
+  width: 50%;
+  height: 200px;
+  background-color: orange;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  border: 2px solid black;
+  outline: 10px solid cyan;
+  outline-offset: 40px;
+}

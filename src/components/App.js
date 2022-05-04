@@ -33,6 +33,7 @@ import Selector from 'src/pages/selector/Selector';
 import Border from 'src/pages/border/Border';
 import Margin from 'src/pages/margin/Margin';
 import WidthHeight from 'src/pages/widthHeight/WidthHeight';
+import Outline from 'src/pages/outline/Outline';
 
 function App() {
   return (
@@ -68,6 +69,7 @@ function App() {
         <Route path="/border" element={<Border />} />
         <Route path="/margin" element={<Margin />} />
         <Route path="/width-height" element={<WidthHeight />} />
+        <Route path="/outline" element={<Outline />} />
       </Routes>
     </Router>
   );
