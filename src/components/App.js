@@ -31,6 +31,7 @@ import Fibonacci from 'src/pages/Fibonacci/Fibonacci';
 import FibonacciWorker from 'src/pages/FibonacciWorker/FibonacciWorker';
 import Selector from 'src/pages/selector/Selector';
 import Border from 'src/pages/border/Border';
+import Margin from 'src/pages/margin/Margin';
 
 function App() {
   return (
@@ -64,6 +65,7 @@ function App() {
         <Route path="/fibonacci-worker" element={<FibonacciWorker />} />
         <Route path="/selector" element={<Selector />} />
         <Route path="/border" element={<Border />} />
+        <Route path="/margin" element={<Margin />} />
       </Routes>
     </Router>
   );
