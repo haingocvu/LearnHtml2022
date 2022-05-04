@@ -34,6 +34,7 @@ import Border from 'src/pages/border/Border';
 import Margin from 'src/pages/margin/Margin';
 import WidthHeight from 'src/pages/widthHeight/WidthHeight';
 import Outline from 'src/pages/outline/Outline';
+import Text from 'src/pages/text/Text';
 
 function App() {
   return (
@@ -70,6 +71,7 @@ function App() {
         <Route path="/margin" element={<Margin />} />
         <Route path="/width-height" element={<WidthHeight />} />
         <Route path="/outline" element={<Outline />} />
+        <Route path="/text" element={<Text />} />
       </Routes>
     </Router>
   );

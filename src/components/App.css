@@ -197,3 +197,27 @@ body {
   outline: 10px solid cyan;
   outline-offset: 40px;
 }
+
+#demoText {
+  max-width: 500px;
+  height: 200px;
+  background-color: powderblue;
+  margin: auto;
+  text-align: justify;
+  text-align-last: left;
+  padding: 20px;
+  text-indent: 20px;
+  overflow: scroll;
+  line-height: 1.4;
+  word-spacing: 2px;
+  word-wrap: break-word;
+  text-shadow: 2px 2px 5px yellow;
+}
+
+#demoText span {
+  text-decoration-line: line-through;
+  text-decoration-style: wavy;
+  text-decoration-color: green;
+  text-decoration-thickness: 3px;
+  text-transform: uppercase;
+}
