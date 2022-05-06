@@ -1167,6 +1167,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/pt-serif@^4.5.8":
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/pt-serif/-/pt-serif-4.5.8.tgz#1fd6a1fe0521052228f7ba6e480ac3fbd60d5602"
+  integrity sha512-GmJoCKJ8Hh06wf67/c5nFO2NaTl2Y370eYiqDD1OstexvSYdKko6uOGoLGehb4jRSvtGk1wKNyriWNsd5IE2GQ==
+
 "@hookform/resolvers@^2.8.8":
   version "2.8.8"
   resolved "https://registry.yarnpkg.com/@hookform/resolvers/-/resolvers-2.8.8.tgz#17cf806485435877fdafce9f3bee6ff68f7f87b6"

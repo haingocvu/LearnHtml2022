@@ -62,6 +62,7 @@ body {
   font: 1em sans-serif;
   padding: 0;
   margin: 0 auto;
+  font-size: 100%;
 }
 
 p * {
@@ -220,4 +221,23 @@ body {
   text-decoration-color: green;
   text-decoration-thickness: 3px;
   text-transform: uppercase;
+}
+
+#fontTest {
+  max-width: 500px;
+  height: 200px;
+  margin: auto;
+  background-color: powderblue;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 2em;
+  overflow: scroll;
+}
+
+.neonText {
+  text-shadow: 0 0 0.1em #fff, 0 0 0.2em #fff, 0 0 0.3em #fff, 0 0 0.4em #f7f,
+    0 0 0.6em #f0f, 0 0 0.8em #f0f, 0 0 1em #f0f, 0 0 1.2em #f0f;
+  color: #fff;
 }

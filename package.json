@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fontsource/pt-serif": "^4.5.8",
     "@hookform/resolvers": "^2.8.8",
     "@microsoft/fetch-event-source": "^2.0.1",
     "@testing-library/jest-dom": "^5.14.1",
