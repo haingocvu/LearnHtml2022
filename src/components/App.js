@@ -37,6 +37,8 @@ import Outline from 'src/pages/outline/Outline';
 import Text from 'src/pages/text/Text';
 import Font from 'src/pages/font/Font';
 import Link from 'src/pages/link/Link';
+import TableCss from 'src/pages/tablecss/TableCss';
+import StyledComponentBasic from 'src/pages/styledComponentBasic/StyledComponentBasic';
 
 function App() {
   return (
@@ -76,6 +78,8 @@ function App() {
         <Route path="/text" element={<Text />} />
         <Route path="/font" element={<Font />} />
         <Route path="/link" element={<Link />} />
+        <Route path="/tablecss" element={<TableCss />} />
+        <Route path="/styled-basic" element={<StyledComponentBasic />} />
       </Routes>
     </Router>
   );
