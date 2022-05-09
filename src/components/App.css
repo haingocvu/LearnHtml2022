@@ -241,3 +241,20 @@ body {
     0 0 0.6em #f0f, 0 0 0.8em #f0f, 0 0 1em #f0f, 0 0 1.2em #f0f;
   color: #fff;
 }
+
+a.btnText:visited,
+a.btnText:link {
+  background-color: white;
+  padding: 10px 20px;
+  border: 2px solid green;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.btnText:hover,
+a.btnText:active {
+  background-color: green;
+  color: white;
+}

@@ -36,6 +36,7 @@ import WidthHeight from 'src/pages/widthHeight/WidthHeight';
 import Outline from 'src/pages/outline/Outline';
 import Text from 'src/pages/text/Text';
 import Font from 'src/pages/font/Font';
+import Link from 'src/pages/link/Link';
 
 function App() {
   return (
@@ -74,6 +75,7 @@ function App() {
         <Route path="/outline" element={<Outline />} />
         <Route path="/text" element={<Text />} />
         <Route path="/font" element={<Font />} />
+        <Route path="/link" element={<Link />} />
       </Routes>
     </Router>
   );
