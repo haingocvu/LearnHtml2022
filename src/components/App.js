@@ -44,6 +44,7 @@ import Nesting from 'src/pages/nesting/Nesting';
 import AttachProps from 'src/pages/attachProps/AttachProps';
 import Animation from 'src/pages/animation/Animation';
 import Display from 'src/pages/display/Display';
+import Visibility from 'src/pages/visibility/Visibility';
 
 function App() {
   return (
@@ -90,6 +91,7 @@ function App() {
         <Route path="/attach-props" element={<AttachProps />} />
         <Route path="/animation" element={<Animation />} />
         <Route path="/display" element={<Display />} />
+        <Route path="/visibility" element={<Visibility />} />
       </Routes>
     </Router>
   );
