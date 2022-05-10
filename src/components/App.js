@@ -39,6 +39,7 @@ import Font from 'src/pages/font/Font';
 import Link from 'src/pages/link/Link';
 import TableCss from 'src/pages/tablecss/TableCss';
 import StyledComponentBasic from 'src/pages/styledComponentBasic/StyledComponentBasic';
+import PassedProps from 'src/pages/passedProps/PassedProps';
 
 function App() {
   return (
@@ -80,6 +81,7 @@ function App() {
         <Route path="/link" element={<Link />} />
         <Route path="/tablecss" element={<TableCss />} />
         <Route path="/styled-basic" element={<StyledComponentBasic />} />
+        <Route path="/passed-props" element={<PassedProps />} />
       </Routes>
     </Router>
   );
