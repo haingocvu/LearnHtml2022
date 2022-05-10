@@ -41,6 +41,7 @@ import TableCss from 'src/pages/tablecss/TableCss';
 import StyledComponentBasic from 'src/pages/styledComponentBasic/StyledComponentBasic';
 import PassedProps from 'src/pages/passedProps/PassedProps';
 import Nesting from 'src/pages/nesting/Nesting';
+import AttachProps from 'src/pages/attachProps/AttachProps';
 
 function App() {
   return (
@@ -84,6 +85,7 @@ function App() {
         <Route path="/styled-basic" element={<StyledComponentBasic />} />
         <Route path="/passed-props" element={<PassedProps />} />
         <Route path="/nesting" element={<Nesting />} />
+        <Route path="/attach-props" element={<AttachProps />} />
       </Routes>
     </Router>
   );
