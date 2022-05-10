@@ -42,6 +42,7 @@ import StyledComponentBasic from 'src/pages/styledComponentBasic/StyledComponent
 import PassedProps from 'src/pages/passedProps/PassedProps';
 import Nesting from 'src/pages/nesting/Nesting';
 import AttachProps from 'src/pages/attachProps/AttachProps';
+import Animation from 'src/pages/animation/Animation';
 
 function App() {
   return (
@@ -86,6 +87,7 @@ function App() {
         <Route path="/passed-props" element={<PassedProps />} />
         <Route path="/nesting" element={<Nesting />} />
         <Route path="/attach-props" element={<AttachProps />} />
+        <Route path="/animation" element={<Animation />} />
       </Routes>
     </Router>
   );
