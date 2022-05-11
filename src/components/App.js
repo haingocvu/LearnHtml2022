@@ -47,6 +47,7 @@ import Display from 'src/pages/display/Display';
 import Visibility from 'src/pages/visibility/Visibility';
 import MaxWidth from 'src/pages/maxWidth/MaxWidth';
 import Position from 'src/pages/position/Position';
+import TextImage from 'src/pages/textImage/TextImage';
 
 function App() {
   return (
@@ -96,6 +97,7 @@ function App() {
         <Route path="/visibility" element={<Visibility />} />
         <Route path="/max-width" element={<MaxWidth />} />
         <Route path="/position" element={<Position />} />
+        <Route path="/text-image" element={<TextImage />} />
       </Routes>
     </Router>
   );
