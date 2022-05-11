@@ -45,6 +45,7 @@ import AttachProps from 'src/pages/attachProps/AttachProps';
 import Animation from 'src/pages/animation/Animation';
 import Display from 'src/pages/display/Display';
 import Visibility from 'src/pages/visibility/Visibility';
+import MaxWidth from 'src/pages/maxWidth/MaxWidth';
 
 function App() {
   return (
@@ -92,6 +93,7 @@ function App() {
         <Route path="/animation" element={<Animation />} />
         <Route path="/display" element={<Display />} />
         <Route path="/visibility" element={<Visibility />} />
+        <Route path="/max-width" element={<MaxWidth />} />
       </Routes>
     </Router>
   );
