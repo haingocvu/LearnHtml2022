@@ -49,6 +49,7 @@ import MaxWidth from 'src/pages/maxWidth/MaxWidth';
 import Position from 'src/pages/position/Position';
 import TextImage from 'src/pages/textImage/TextImage';
 import ZIndex from 'src/pages/zIndex/ZIndex';
+import Overflow from 'src/pages/overflow/Overflow';
 
 function App() {
   return (
@@ -100,6 +101,7 @@ function App() {
         <Route path="/position" element={<Position />} />
         <Route path="/text-image" element={<TextImage />} />
         <Route path="/z-index" element={<ZIndex />} />
+        <Route path="/overflow" element={<Overflow />} />
       </Routes>
     </Router>
   );
