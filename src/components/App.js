@@ -46,6 +46,7 @@ import Animation from 'src/pages/animation/Animation';
 import Display from 'src/pages/display/Display';
 import Visibility from 'src/pages/visibility/Visibility';
 import MaxWidth from 'src/pages/maxWidth/MaxWidth';
+import Position from 'src/pages/position/Position';
 
 function App() {
   return (
@@ -94,6 +95,7 @@ function App() {
         <Route path="/display" element={<Display />} />
         <Route path="/visibility" element={<Visibility />} />
         <Route path="/max-width" element={<MaxWidth />} />
+        <Route path="/position" element={<Position />} />
       </Routes>
     </Router>
   );
