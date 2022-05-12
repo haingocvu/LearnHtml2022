@@ -52,6 +52,7 @@ import ZIndex from 'src/pages/zIndex/ZIndex';
 import Overflow from 'src/pages/overflow/Overflow';
 import Float from 'src/pages/float/Float';
 import Clear from 'src/pages/clear/Clear';
+import ClearFix from 'src/pages/clearfix/ClearFix';
 
 function App() {
   return (
@@ -106,6 +107,7 @@ function App() {
         <Route path="/overflow" element={<Overflow />} />
         <Route path="/float" element={<Float />} />
         <Route path="/clear" element={<Clear />} />
+        <Route path="/clear-fix" element={<ClearFix />} />
       </Routes>
     </Router>
   );
