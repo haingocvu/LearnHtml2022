@@ -50,6 +50,7 @@ import Position from 'src/pages/position/Position';
 import TextImage from 'src/pages/textImage/TextImage';
 import ZIndex from 'src/pages/zIndex/ZIndex';
 import Overflow from 'src/pages/overflow/Overflow';
+import Float from 'src/pages/float/Float';
 
 function App() {
   return (
@@ -102,6 +103,7 @@ function App() {
         <Route path="/text-image" element={<TextImage />} />
         <Route path="/z-index" element={<ZIndex />} />
         <Route path="/overflow" element={<Overflow />} />
+        <Route path="/float" element={<Float />} />
       </Routes>
     </Router>
   );

@@ -2,88 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-ul {
-  list-style-type: none;
-  background-color: #333333;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  text-decoration: none;
-  color: white;
-  padding: 16px;
-  text-align: center;
-}
-
-li a:hover {
-  background-color: #111111;
-}
-
-.city {
-  background-color: tomato;
-  color: white;
-  border: 2px solid black;
-  margin: 20px;
-  padding: 20px;
-}
-
 body {
   font: 1em sans-serif;
   padding: 0;
   margin: 0 auto;
   font-size: 100%;
-}
-
-p * {
-  display: block;
-}
-
-input[type='email'] {
-  -webkit-appearance: none;
-  appearance: none;
-
-  width: 100%;
-  border: 1px solid #333;
-  margin: 0;
-
-  font-family: inherit;
-  font-size: 90%;
-
-  box-sizing: border-box;
-}
-
-/* This is our style for the invalid fields */
-input:invalid {
-  border-color: #900;
-  background-color: #fdd;
-}
-
-input:focus:invalid {
-  outline: none;
-}
-
-/* This is the style of our error messages */
-.error {
-  width: 100%;
-  padding: 0;
-
-  font-size: 80%;
-  color: white;
-  background-color: #900;
-  border-radius: 0 0 5px 5px;
-
-  box-sizing: border-box;
-}
-
-.error.active {
-  padding: 0.3em;
 }
 
 #div1,
